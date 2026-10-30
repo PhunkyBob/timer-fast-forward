@@ -8,10 +8,13 @@ Chrome / Edge extension (Manifest V3) that speeds up a page's timers by x10: `se
 
 ## Installation
 
-1. Open `chrome://extensions` (Chrome) or `edge://extensions` (Edge).
-2. Enable "Developer mode".
-3. Click "Load unpacked" and select this folder.
-4. Pin the orange icon to the toolbar.
+1. Get the project, either:
+   - by cloning the repository: `git clone https://github.com/PhunkyBob/timer-fast-forward.git`
+   - or by [downloading the ZIP](https://github.com/PhunkyBob/timer-fast-forward/releases/) and extracting it.
+2. Open `chrome://extensions` (Chrome) or `edge://extensions` (Edge).
+3. Enable "Developer mode".
+4. Click "Load unpacked" and select the project folder (the one containing `manifest.json`).
+5. Pin the orange icon to the toolbar.
 
 ## Usage
 

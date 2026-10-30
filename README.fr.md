@@ -8,10 +8,13 @@ Extension Chrome / Edge (Manifest V3) qui accélère x10 les timers d'une page :
 
 ## Installation
 
-1. Ouvrir `chrome://extensions` (Chrome) ou `edge://extensions` (Edge).
-2. Activer le « Mode développeur ».
-3. Cliquer sur « Charger l'extension non empaquetée » et sélectionner ce dossier.
-4. Épingler l'icône orange dans la barre d'outils.
+1. Récupérer le projet, au choix :
+   - en clonant le dépôt : `git clone https://github.com/PhunkyBob/timer-fast-forward.git`
+   - ou en [téléchargeant le ZIP](https://github.com/PhunkyBob/timer-fast-forward/releases/) puis en le dézippant.
+2. Ouvrir `chrome://extensions` (Chrome) ou `edge://extensions` (Edge).
+3. Activer le « Mode développeur ».
+4. Cliquer sur « Charger l'extension non empaquetée » et sélectionner le dossier du projet (celui qui contient `manifest.json`).
+5. Épingler l'icône orange dans la barre d'outils.
 
 ## Utilisation
 
