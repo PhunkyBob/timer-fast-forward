@@ -1,0 +1,14 @@
+{
+  "extDescription": {
+    "message": "Accélère x10 les timers (setTimeout, setInterval) et l'horloge de la page dans l'onglet courant."
+  },
+  "titleOff": {
+    "message": "Timer Fast Forward : désactivé (cliquer pour accélérer x10)"
+  },
+  "titleOn": {
+    "message": "Timer Fast Forward : actif x$FACTOR$ (cliquer pour désactiver)",
+    "placeholders": {
+      "factor": { "content": "$1", "example": "10" }
+    }
+  }
+}

@@ -1,5 +1,7 @@
 *[English version](README.md)*
 
+<img src="icons/icon128.png" alt="Icône Timer Fast Forward" width="64">
+
 # Timer Fast Forward
 
 Extension Chrome / Edge (Manifest V3) qui accélère x10 les timers d'une page : `setTimeout`, `setInterval`, `requestAnimationFrame`, ainsi que l'horloge vue par la page (`Date`, `Date.now()`, `performance.now()`), pour que les comptes à rebours basés sur l'heure réelle défilent eux aussi plus vite.

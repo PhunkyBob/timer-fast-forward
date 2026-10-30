@@ -4,7 +4,7 @@
 // quand l'onglet change de page, jusqu'au prochain clic ou à la fermeture de l'onglet.
 
 const FACTOR = 10;
-const OFF_TITLE = chrome.runtime.getManifest().action.default_title;
+const OFF_TITLE = chrome.i18n.getMessage('titleOff');
 const key = (tabId) => `tab_${tabId}`;
 
 chrome.action.setBadgeBackgroundColor({ color: '#E8590C' });
@@ -22,7 +22,7 @@ async function updateBadge(tabId, factor) {
       chrome.action.setBadgeText({ tabId, text: on ? `x${factor}` : '' }),
       chrome.action.setTitle({
         tabId,
-        title: on ? `Timer Fast Forward : actif x${factor} (cliquer pour désactiver)` : OFF_TITLE,
+        title: on ? chrome.i18n.getMessage('titleOn', String(factor)) : OFF_TITLE,
       }),
     ]);
   } catch (_) {

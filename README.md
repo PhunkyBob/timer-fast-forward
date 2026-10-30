@@ -1,5 +1,7 @@
 *[Version française](README.fr.md)*
 
+<img src="icons/icon128.png" alt="Timer Fast Forward icon" width="64">
+
 # Timer Fast Forward
 
 Chrome / Edge extension (Manifest V3) that speeds up a page's timers by x10: `setTimeout`, `setInterval`, `requestAnimationFrame`, as well as the clock seen by the page (`Date`, `Date.now()`, `performance.now()`), so that countdowns based on real time also run faster.

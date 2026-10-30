@@ -1,0 +1,14 @@
+{
+  "extDescription": {
+    "message": "Speeds up page timers (setTimeout, setInterval) and the page clock by x10 in the current tab."
+  },
+  "titleOff": {
+    "message": "Timer Fast Forward: disabled (click to speed up x10)"
+  },
+  "titleOn": {
+    "message": "Timer Fast Forward: active x$FACTOR$ (click to disable)",
+    "placeholders": {
+      "factor": { "content": "$1", "example": "10" }
+    }
+  }
+}
